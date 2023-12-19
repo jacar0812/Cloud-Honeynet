@@ -6,7 +6,6 @@
 
 In this project, I built a miniature honeynet infrastructure within Microsoft Azure. This involved orchestrating a simulated network environment aimed at attracting and monitoring potential cyber threats. I ensured the ingestion of diverse log sources, from various endpoints, into a centralized Log Analytics Workspace. 
 
-In this project, I build a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. 
 The architecture of the mini honeynet in Azure consists of the following components:
 
 - Virtual Network (VNet)
@@ -21,4 +20,4 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 ## Conclusion
 
-In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. 
+In this project, a mini honeynet was constructed in Microsoft Azure, and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. 
