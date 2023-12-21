@@ -10,14 +10,13 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 - Virtual Network (VNet) 
 - Network Security Group (NSG)
-- Virtual Machines (2 Windows, 1 Linux)
+- Virtual Machines (2 Windows (one is used as an ATTACK-VM), 1 Linux)
 - Log Analytics Workspace
 - Azure Key Vault
 - Azure Storage Account
 - Microsoft Sentinel
 
-First, after logging into Azure and creating a subscription, I created two virtual machines (VM).  First, I created a Windows 10 Pro VM (name it windows-vm).  That VM is put under a new Resource Group that I created (named RG-Cyber-1979)
-
+The Network Security Group (Layer 4 Firewall) for both VMs was configured to allow **ALL** inbound traffic.  By deliberately allowing all inbound traffic to the Virtual Machines (VMs) in the Network Security Group (NSG), I created an environment where I could observe and study a wide range of attacks. This could include port scanning, brute-force attempts, malware propagation, and more, providing valuable insights into how attackers operate and allowing for the development of better defense mechanisms and incident response strategies.
 
 ## Conclusion
 
