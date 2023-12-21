@@ -8,7 +8,7 @@ In this project, I built a miniature honeynet infrastructure within Microsoft Az
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
-- Virtual Network (VNet)
+- Virtual Network (VNet) 
 - Network Security Group (NSG)
 - Virtual Machines (2 Windows, 1 Linux)
 - Log Analytics Workspace
@@ -16,6 +16,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 - Azure Storage Account
 - Microsoft Sentinel
 
+First, after logging into Azure and creating a subscription, I created two virtual machines (VM).  First, I created a Windows 10 Pro VM (name it windows-vm).  That VM is put under a new Resource Group that I created (named RG-Cyber-1979)
 
 
 ## Conclusion
